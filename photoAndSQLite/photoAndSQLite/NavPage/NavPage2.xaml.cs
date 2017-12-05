@@ -48,7 +48,8 @@ namespace photoAndSQLite.NavPage
 
             // RealmにItemオブジェクトを追加する
             var realm = Realm.GetInstance();
-            realm.Write(() =>
+
+            /*realm.Write(() =>
             {
 
                 byte[] iBytes = GetByteArrayFromStream(sourceFile.GetStream());
@@ -56,7 +57,7 @@ namespace photoAndSQLite.NavPage
                 DisplayAlert("NavPage2", "length : " + iBytes.Length, "OK");
             });
             // Navigation.PopToRootAsync(true);
-            Application.Current.MainPage = new MainPage();
+            Application.Current.MainPage = new MainPage();*/
 
         }
     }
