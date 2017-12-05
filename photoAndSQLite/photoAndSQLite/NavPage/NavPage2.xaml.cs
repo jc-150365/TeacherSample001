@@ -49,15 +49,15 @@ namespace photoAndSQLite.NavPage
             // RealmにItemオブジェクトを追加する
             var realm = Realm.GetInstance();
 
-            /*realm.Write(() =>
+            realm.Write(() =>
             {
 
                 byte[] iBytes = GetByteArrayFromStream(sourceFile.GetStream());
-                realm.Add(new Item { TimeString = time, imageBytes = iBytes, UrlString = sourceFile.Path });
+                /*realm.Add(new Item { TimeString = time, imageBytes = iBytes, UrlString = sourceFile.Path });*/
                 DisplayAlert("NavPage2", "length : " + iBytes.Length, "OK");
             });
             // Navigation.PopToRootAsync(true);
-            Application.Current.MainPage = new MainPage();*/
+            Application.Current.MainPage = new MainPage();
 
         }
     }
