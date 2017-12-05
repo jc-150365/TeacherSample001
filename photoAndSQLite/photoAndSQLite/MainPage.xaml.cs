@@ -113,7 +113,7 @@ namespace photoAndSQLite
                 {
                     var time = DateTime.UtcNow.ToString("HH:mm:ss");
 
-                    // RealmにItemオブジェクトを追加する
+                    // RealmにItemオブジェクトを追加する//
                     var realm = Realm.GetInstance();
                     realm.Write(() =>
                     {
