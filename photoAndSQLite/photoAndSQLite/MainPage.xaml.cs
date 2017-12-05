@@ -15,7 +15,7 @@ namespace photoAndSQLite
         public MainPage()
         {
 
-            InitializeComponent();
+            //InitializeComponent();
         }
 
         protected override void OnAppearing()

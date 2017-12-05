@@ -19,7 +19,7 @@ namespace photoAndSQLite
        "android={Your Android App secret here}",
        typeof(Analytics), typeof(Crashes));
 
-            InitializeComponent();
+            //InitializeComponent();
 
             MainPage = new photoAndSQLite.MainPage();
         }
